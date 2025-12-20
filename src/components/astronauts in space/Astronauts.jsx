@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Astronauts.css";
 
 const Astronauts = () => {
-  
+
   const [astronauts, setAstronauts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -12,7 +12,7 @@ const Astronauts = () => {
       try {
         const api_key = import.meta.env.VITE_ASTRONAUTS_IN_SPACE_API;
         const res = await fetch(
-          `http://api.scrapestack.com/scrape?access_key=${api_key}&url=https://whoisinspace.com/`
+          // `http://api.scrapestack.com/scrape?access_key=${api_key}&url=https://whoisinspace.com/`
         );
 
         const html = await res.text();
