@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Astronauts.css";
 
 const Astronauts = () => {
+  
   const [astronauts, setAstronauts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
