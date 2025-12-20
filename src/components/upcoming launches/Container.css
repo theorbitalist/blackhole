@@ -1,0 +1,28 @@
+.container-outline{
+    border: 1px solid var(--white);
+}
+
+.container-outline h1{
+    font-family: var(--bebas);
+    font-size: 30px;
+}
+
+.container-outline small{
+    font-family: var(--nixie);
+    font-size: 15px;
+}
+
+/* Chrome, Edge, Safari */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--red);
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: var(--white); /* gray-200 */
+}
+

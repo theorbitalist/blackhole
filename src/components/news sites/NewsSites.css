@@ -1,0 +1,32 @@
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+  padding: 10px 0;
+}
+
+/* moving element */
+.marquee-track {
+  display: flex;
+  gap: 30px;
+  width: max-content;          /* 🔥 critical */
+  animation: marquee 60s linear infinite;
+}
+
+/* text */
+.marquee-item {
+  white-space: nowrap;
+  font-family: var(--bebas);
+  font-size: 30px;
+}
+
+/* move only HALF (because content is duplicated) */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

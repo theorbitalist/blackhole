@@ -1,0 +1,8 @@
+.news-container h1{
+    font-size: 30px;
+    font-family: var(--bebas);
+}
+
+.news-container p{
+    font-family: var(--nixie);
+}

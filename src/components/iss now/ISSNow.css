@@ -1,0 +1,9 @@
+.iss-font small{
+    font-size: 20px;
+    font-family: var(--bebas);
+}
+
+.iss-font span{
+    font-size: 20px;
+    font-family: var(--bebas);
+}

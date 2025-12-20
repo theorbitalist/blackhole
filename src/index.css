@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+*{
+  /* padding: 0; */
+  /* margin: 0;/ */
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+:root{
+  --red:#da1414;
+  --white:#ffffff;
+  --less-white:#e7e7e7;
+  --grey:#171616;
+
+  --quicksand:"Quicksand", sans-serif;
+  --bebas: "Bebas Neue", sans-serif;
+  --nixie: "Nixie One", system-ui;
+}
+
+body{
+  background-color: var(--grey);
+  color: var(--white);
+}
+
+/* h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+h4{
+  font-size: 35px;
+}
+
+h5{
+  font-size: 30px;
+}
+
+h6{
+  font-size: 28px;
+}
+
+p{
+  font-size: 18px;
+}
+
+small{
+  font-size: 14px;
+} */
